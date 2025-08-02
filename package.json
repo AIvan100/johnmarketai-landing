@@ -1,17 +1,16 @@
 {
-   "name": "marketing-agency-landing",
-   "private": true,
-   "version": "0.0.0",
-   "type": "module",
-},
-"scripts": {
-+    "dev": "vite",
-+    "build": "vite build",
-+    "lint": "eslint .",
-+    "preview": "vite preview",
-+    "predeploy": "vite build",
-+    "deploy": "gh-pages -d dist"
-+  },
+  "name": "marketing-agency-landing",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "predeploy": "vite build",
+    "deploy": "gh-pages -d dist"
+  },
   "dependencies": {
     "@hookform/resolvers": "^5.0.1",
     "@radix-ui/react-accordion": "^1.2.10",
