@@ -2,7 +2,7 @@
   "dev": "vite",
   "build": "vite build",
   "lint": "eslint .",
-  "preview": "vite preview",  // <- вот эта запятая должна быть!
+  "preview": "vite preview",
   "predeploy": "vite build",
   "deploy": "gh-pages -d dist"
 },
